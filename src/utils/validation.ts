@@ -1,33 +1,35 @@
-export const validateTransaction = (transaction) => {
-    const errors = {};
+import type { ITransaction } from '../models/Transaction';
 
-    if (!transaction.amount || isNaN(transaction.amount) || transaction.amount <= 0) {
-        errors.amount = "Amount must be a positive number.";
-    }
+export const validateTransaction = (transaction: ITransaction) => {
+  const errors: any = {};
 
-    if (!transaction.date) {
-        errors.date = "Date is required.";
-    }
+  if (!transaction.amount || isNaN(transaction.amount) || transaction.amount <= 0) {
+    errors.amount = 'Amount must be a positive number';
+  }
 
-    if (!transaction.description || transaction.description.trim() === "") {
-        errors.description = "Description is required.";
-    }
+  if (!transaction.date) {
+    errors.date = 'Date is required';
+  }
 
-    return {
-        isValid: Object.keys(errors).length === 0,
-        errors,
-    };
+  if (!transaction.description || transaction.description.trim() === '') {
+    errors.description = 'Description is required';
+  }
+
+  return {
+    isValid: Object.keys(errors).length === 0,
+    errors,
+  };
 };
 
-export const validateCategory = (category) => {
-    const errors = {};
+export const validateCategory = (category: string) => {
+  const errors: { category?: string } = {};
 
-    if (!category || category.trim() === "") {
-        errors.category = "Category is required.";
-    }
+  if (!category || category.trim() === '') {
+    errors.category = 'Category is required.';
+  }
 
-    return {
-        isValid: Object.keys(errors).length === 0,
-        errors,
-    };
+  return {
+    isValid: Object.keys(errors).length === 0,
+    errors,
+  };
 };
