@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Personal Finance Visualizer
 
 A simple web application for tracking personal finances, built with Next.js and React. This application allows users to manage their transactions, visualize their spending habits, and set budgets for better financial management.
@@ -66,3 +67,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Acknowledgments
 
 - Thanks to the open-source community for their contributions and support.
+=======
+# personal-finance-visualizer
+>>>>>>> 15e087b13e707079a82f0c664b9e5e8518d6a6c0
