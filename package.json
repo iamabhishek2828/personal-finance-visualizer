@@ -1,0 +1,40 @@
+{
+  "name": "personal-finance-visualizer",
+  "version": "1.0.0",
+  "description": "A simple web application for tracking personal finances.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "mongodb": "latest",
+    "mongoose": "^8.16.1",
+    "next": "latest",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "24.0.10",
+    "@types/react": "19.1.8",
+    "autoprefixer": "^10.4.21",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
+    "typescript": "latest"
+  },
+  "keywords": [
+    "personal finance",
+    "tracker",
+    "nextjs",
+    "react"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
