@@ -1,72 +1,93 @@
-<<<<<<< HEAD
+
+
 # Personal Finance Visualizer
 
-A simple web application for tracking personal finances, built with Next.js and React. This application allows users to manage their transactions, visualize their spending habits, and set budgets for better financial management.
+A modern, full-stack web application to track, visualize, and manage your personal finances.  
+Easily add transactions, view category breakdowns, and analyze your spending trends with interactive charts.
 
-## Features
+---
 
-- **Transaction Tracking**: Add, edit, and delete transactions with details such as amount, date, and description.
-- **Visualizations**: 
-  - Monthly expenses bar chart
-  - Category-wise pie chart
-  - Budget vs actual comparison chart
-- **Dashboard**: Overview of personal finances with summary cards displaying total expenses, category breakdown, and recent transactions.
-- **Budgeting**: Set monthly budgets for different categories and gain insights into spending habits.
+## 🚀 Live Demo
 
-## Tech Stack
+[View the app on Vercel →](https://personal-finance-visualizer-p8bl2orl3.vercel.app/)
 
-- **Frontend**: Next.js, React, shadcn/ui, Recharts
-- **Backend**: MongoDB
-- **Styling**: CSS Modules and global styles
+---
 
-## Getting Started
+## ✨ Features
 
-### Prerequisites
+- **Add & Manage Transactions:** Quickly log your expenses with description, amount, date, and category.
+- **Category Breakdown:** See where your money goes with a dynamic pie chart.
+- **Monthly Trends:** Visualize your spending over time with bar charts.
+- **Budget Comparison:** Compare your actual spending to your budget.
+- **Responsive Design:** Works beautifully on desktop and mobile.
+- **MongoDB Atlas Integration:** Secure, cloud-based data storage.
 
-- Node.js (version 14 or higher)
-- MongoDB (local or cloud instance)
+---
 
-### Installation
+## 🛠️ Tech Stack
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/personal-finance-visualizer.git
+- **Frontend:** Next.js, React, Tailwind CSS
+- **Backend:** Next.js API Routes, Mongoose, MongoDB Atlas
+- **Deployment:** [Vercel](https://vercel.com/)
+
+---
+
+## 🧑‍💻 Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/iamabhishek2828/personal-finance-visualizer.git
    cd personal-finance-visualizer
    ```
 
-2. Install dependencies:
-   ```
+2. **Install dependencies:**
+   ```bash
    npm install
    ```
 
-3. Set up environment variables:
-   - Copy `.env.example` to `.env` and fill in the required values.
+3. **Set up environment variables:**
+   - Copy `.env.example` to `.env` and fill in your MongoDB URI and any other secrets.
 
-4. Start the development server:
-   ```
+4. **Run locally:**
+   ```bash
    npm run dev
    ```
 
-5. Open your browser and navigate to `http://localhost:3000`.
+5. **Open [http://localhost:3000](http://localhost:3000) in your browser.**
 
-## Usage
+---
 
-- Use the transaction form to add new transactions.
-- View your transaction history in the transaction list.
-- Explore visualizations on the dashboard to understand your spending patterns.
-- Set budgets for different categories and track your progress.
+## ⚙️ Environment Variables
 
-## Contributing
+Create a `.env` file in the root directory:
 
-Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
+```
+MONGODB_URI=your_mongodb_connection_string
+```
 
-## License
+---
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+## 📦 Deployment
 
-## Acknowledgments
+This project is automatically deployed on [Vercel](https://vercel.com/).
 
-- Thanks to the open-source community for their contributions and support.
-=======
-# personal-finance-visualizer
->>>>>>> 15e087b13e707079a82f0c664b9e5e8518d6a6c0
+To deploy your own:
+- Push your code to GitHub.
+- Import your repo into Vercel.
+- Set your environment variables in the Vercel dashboard.
+- Deploy!
+
+---
+
+## 📄 License
+
+MIT
+
+---
+
+## 👤 Author
+
+- [Abhishek Choudhary](https://github.com/iamabhishek2828)
+
+---
+
